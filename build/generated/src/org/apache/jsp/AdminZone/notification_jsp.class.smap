@@ -1,0 +1,18 @@
+SMAP
+notification_jsp.java
+JSP
+*S JSP
+*F
++ 0 notification.jsp
+AdminZone/notification.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,49:50
+5#1,26:99
+53#0,120:124
+5#2,38:244
+172#0,5:281
+*E

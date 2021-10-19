@@ -1,0 +1,24 @@
+SMAP
+downloadadmitcard_jsp.java
+JSP
+*S JSP
+*F
++ 0 downloadadmitcard.jsp
+UserZone/downloadadmitcard.jsp
++ 1 header.jsp
+UserZone/../UserZone/header.jsp
++ 2 footer.jsp
+UserZone/../UserZone/footer.jsp
+*L
+5,52:52
+5#1,36:104
+56#0,55:139
+111,7:195
+117,2:202
+119,8:204,3
+127,4:228
+131:232,3
+132,15:235
+5#2,38:250
+146#0,7:287
+*E

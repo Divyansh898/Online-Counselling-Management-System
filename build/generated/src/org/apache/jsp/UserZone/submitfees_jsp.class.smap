@@ -1,0 +1,18 @@
+SMAP
+submitfees_jsp.java
+JSP
+*S JSP
+*F
++ 0 submitfees.jsp
+UserZone/submitfees.jsp
++ 1 header.jsp
+UserZone/../UserZone/header.jsp
++ 2 footer.jsp
+UserZone/../UserZone/footer.jsp
+*L
+5,51:50
+5#1,26:101
+55#0,68:126
+5#2,38:194
+122#0,7:231
+*E

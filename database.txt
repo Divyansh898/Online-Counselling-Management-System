@@ -1,0 +1,274 @@
+phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Aug 11, 2019 at 12:12 PM
+-- Server version: 5.1.36
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `projectmy`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admitcard`
+--
+
+CREATE TABLE IF NOT EXISTS `admitcard` (
+  `Name` varchar(100) NOT NULL,
+  `FatherName` varchar(100) NOT NULL,
+  `rollno` varchar(50) NOT NULL,
+  `course` varchar(120) NOT NULL,
+  `branch` varchar(100) NOT NULL,
+  `ranking` varchar(100) NOT NULL,
+  `Upload` varchar(100) NOT NULL,
+  PRIMARY KEY (`rollno`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admitcard`
+--
+
+INSERT INTO `admitcard` (`Name`, `FatherName`, `rollno`, `course`, `branch`, `ranking`, `Upload`) VALUES
+('divyansh', 'munish kumar', '1234', 'Polytechnic', 'Computer Science', '123', '3.jpg'),
+('divyansh', 'munish kumar', '12345', 'Polytechnic', 'Computer Science', '123', 'null'),
+('Divyansh', 'munish kumar', 'abc', 'Polytechnic', 'Computer Science', '123', '2.jpg'),
+('divyansh', 'munish kumar', '123', 'Polytechnic', 'Computer Science', '122', '3.jpg'),
+('Shani sharma', 'kamlesh sharma', '32', 'Polytechnic', 'Computer Science', '125', '9.jpg'),
+('divyansh', 'munish kumar', '9877', 'Polytechnic', 'Computer Science', '129', '10.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contactus`
+--
+
+CREATE TABLE IF NOT EXISTS `contactus` (
+  `Name` varchar(50) NOT NULL,
+  `Email` varchar(80) NOT NULL,
+  `Contact no.` varchar(30) NOT NULL,
+  `College name` varchar(50) NOT NULL,
+  `Adddress` varchar(100) NOT NULL,
+  `Query` varchar(250) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `contactus`
+--
+
+INSERT INTO `contactus` (`Name`, `Email`, `Contact no.`, `College name`, `Adddress`, `Query`) VALUES
+('pranjali', 'pr@gmail.com', '6395078722', 'GP madhogarh', 'badaun', 'need for college'),
+('Vaibhav Gupta', 'vaibhavgullu@gmail.com', '6394709250', 'GP Madhogarh', 'Jalaun', 'good morning'),
+('Pranjali Katiyar', 'pranjalikatiyar2001@gmail.com', '8887583163', 'GP Madhogarh', 'Kanpur', 'good morning'),
+('Sandeep Kumar Gupta', 'skg213@gmail.com', '8528513858', 'GP Madhogarh', 'Pratapgarh', 'good morning'),
+('Shani Sharma', 'shanisharma2011@gmail.com', '9415302274', 'GP Madhogarh', 'Pratapgarh', 'Sir ,Please Provide me hint about your project'),
+('Divyansh', 'divyanshvarshney143@gmail.com', '6395078722', 'GP madhogarh', 'badaun', 'good morning'),
+('pranju', 'pr@gmail.com', '6395078722', 'Gp madhogarh', 'badaun', 'Need for college');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `courses`
+--
+
+CREATE TABLE IF NOT EXISTS `courses` (
+  `collegecode` varchar(100) NOT NULL,
+  `collegename` varchar(100) NOT NULL,
+  `course` varchar(50) NOT NULL,
+  `Branch` varchar(100) NOT NULL,
+  `year` varchar(50) NOT NULL,
+  `Fees` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `courses`
+--
+
+INSERT INTO `courses` (`collegecode`, `collegename`, `course`, `Branch`, `year`, `Fees`) VALUES
+('355', 'Government Polytechnic Lucknow', 'Polytechnic', 'Computer Science', '3', '3000'),
+('355', 'Government Polytechnic Madhogarh Jalaun', 'Polytechnic', '', '3', ''),
+('355', 'Government Polytechnic Madhogarh Jalaun', 'Polytechnic', 'Computer Science', '3', '3000'),
+('356', 'Government Polytechnic Madhogarh Jalaun', 'Polytechnic', 'IT', '3', '3000'),
+('344', 'MMIT', 'Polytechnic', 'Computer Science', '3', '3000');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `coursesform`
+--
+
+CREATE TABLE IF NOT EXISTS `coursesform` (
+  `Name` varchar(100) NOT NULL,
+  `FatherName` varchar(100) NOT NULL,
+  `mobilenum` varchar(30) NOT NULL,
+  `Email` varchar(120) NOT NULL,
+  `Qualification` varchar(100) NOT NULL,
+  `Address` varchar(250) NOT NULL,
+  `gender` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `coursesform`
+--
+
+INSERT INTO `coursesform` (`Name`, `FatherName`, `mobilenum`, `Email`, `Qualification`, `Address`, `gender`) VALUES
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('null', 'null', 'null', 'null', 'null', 'null', 'null'),
+('jkgffdghj', 'jhgfhjk', '9876567890', 'jnj@gmail.com', '10th', 'kjhgf', 'Female');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE IF NOT EXISTS `login` (
+  `userid` varchar(120) NOT NULL,
+  `passwd` varchar(60) NOT NULL,
+  `utype` varchar(50) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`userid`, `passwd`, `utype`) VALUES
+('div@gmail.com', '876', 'user'),
+('referrr@gmail.com', '87776', 'user'),
+('lgdc@gmail.com', '76546666', 'user'),
+('ugyfo@gmail.com', '5678', 'user'),
+('lukhkft@gmail.com', '423111114', 'user'),
+('varshneydiv@gmail.com', '', 'user'),
+('bdghsjaf@gmail.com', '235763356325', 'user'),
+('p@gmail.com', '6435555555555', 'user'),
+('gdbbb@gmail.com', '23246455', 'user'),
+('kjh@gmail.com', '016262', 'user'),
+('divyanshvarshney142@gmail.com', '3604921277', 'user'),
+('jygfhdh@gmail.com', '2123I4B', 'user'),
+('jdhsdh143@gmail.com', 'OLEV', 'user'),
+('dddd@gmail.com', '32245645', 'user'),
+('hcdghg@gmail.com', 'TBFIXBUGFD', 'user'),
+('divy1432@gmail.com', 'WREB8567', 'user'),
+('admin@gmail.com', '8', 'admin'),
+('ramr@gmail.com', 'ZYX', 'user'),
+('gupta@gmail.com', '876', 'user'),
+('shani@gmail.com', 'HSZMR', 'user'),
+('dv@gmail.com', 'ZYX', 'user'),
+('divya@gmail.com', '876', 'user'),
+('div1@gmail.com', 'ZYX', 'user'),
+('dhan@gmail.com', '8765', 'user'),
+('pr@gmail.com', '8', 'user'),
+('d@gmail.com', '', 'user');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `notification`
+--
+
+CREATE TABLE IF NOT EXISTS `notification` (
+  `Message` varchar(250) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `notification`
+--
+
+INSERT INTO `notification` (`Message`) VALUES
+('Counseling Start'),
+('Result Coming Soon');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `registration`
+--
+
+CREATE TABLE IF NOT EXISTS `registration` (
+  `Name` varchar(50) NOT NULL,
+  `FatherName` varchar(80) NOT NULL,
+  `Mobile` varchar(30) NOT NULL,
+  `Email` varchar(120) NOT NULL,
+  `Passwd` varchar(60) NOT NULL,
+  `Pic` varchar(250) NOT NULL,
+  `Address` varchar(200) NOT NULL,
+  `Gender` varchar(50) NOT NULL,
+  `regdt` varchar(70) NOT NULL,
+  PRIMARY KEY (`Email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `registration`
+--
+
+INSERT INTO `registration` (`Name`, `FatherName`, `Mobile`, `Email`, `Passwd`, `Pic`, `Address`, `Gender`, `regdt`) VALUES
+('divyansh', 'munish kumar', '44444444444444444444444', 'dhan@gmail.com', '876', 'dhan@gmail.com3.jpg', 'gfdfgfd', 'Male', '2019-08-11'),
+('divyansh', 'munish kumar', '67777777777', 'div1@gmail.com', 'ZYX', 'div1@gmail.com2.jpg', 'kkkkkkkkkkkkkkkkk', 'Male', '2019-08-11'),
+('Divyansh', 'Mr.Munish Kumar', '6395078722', 'd@gmail.com', '', 'd@gmail.com2.jpg', 'badaun', 'Male', '2019-08-11'),
+('Pranju', 'Div', '6395078722', 'pr@gmail.com', '8', 'pr@gmail.com24.jpg', 'kanpur', 'Female', '2019-08-11');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `review`
+--
+
+CREATE TABLE IF NOT EXISTS `review` (
+  `Name` varchar(100) NOT NULL,
+  `mobilenum` varchar(50) NOT NULL,
+  `star` varchar(40) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `review`
+--
+
+INSERT INTO `review` (`Name`, `mobilenum`, `star`) VALUES
+('Shani Sharma', '9415302274', '5'),
+('Divyansh', '6395078722', '5'),
+('vaibhav', '6394709250', '5'),
+('Dhananjay', '6755454554', '5'),
+('null', 'null', 'null'),
+('Shani', '9415302274', '5'),
+('Ajay', '56445477667', '5'),
+('vvbv', '43454546', '5'),
+('dhananjay', '678987666', '5');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `submitfees`
+--
+
+CREATE TABLE IF NOT EXISTS `submitfees` (
+  `Name` varchar(100) NOT NULL,
+  `course` varchar(80) NOT NULL,
+  `branch` varchar(50) NOT NULL,
+  `year` varchar(50) NOT NULL,
+  `rupees` varchar(60) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `submitfees`
+--
+
+INSERT INTO `submitfees` (`Name`, `course`, `branch`, `year`, `rupees`) VALUES
+('divyansh', 'Polytechnic', 'Computer Science', '3', '3000'),
+('Dhananjay varshney', 'Polytechnic', 'Computer Science', '3', '3000'),
+('Dhananjay varshney', 'Polytechnic', 'IT', '3', '3000');

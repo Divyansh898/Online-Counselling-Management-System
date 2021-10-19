@@ -1,0 +1,18 @@
+SMAP
+admitcard_jsp.java
+JSP
+*S JSP
+*F
++ 0 admitcard.jsp
+AdminZone/admitcard.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,48:50
+5#1,26:98
+52#0,133:123
+5#2,38:256
+184#0,5:293
+*E

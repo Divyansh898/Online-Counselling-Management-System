@@ -1,0 +1,18 @@
+SMAP
+courses_jsp.java
+JSP
+*S JSP
+*F
++ 0 courses.jsp
+AdminZone/courses.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,51:50
+5#1,31:101
+55#0,129:131
+5#2,38:260
+183#0,5:297
+*E

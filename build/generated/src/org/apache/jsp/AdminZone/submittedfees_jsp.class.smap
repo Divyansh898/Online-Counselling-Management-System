@@ -1,0 +1,24 @@
+SMAP
+submittedfees_jsp.java
+JSP
+*S JSP
+*F
++ 0 submittedfees.jsp
+AdminZone/submittedfees.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,52:52
+5#1,26:104
+56#0,117:129
+173,6:247
+178,2:253
+180,5:255,3
+185,6:270
+191:276,3
+192,11:279
+5#2,38:290
+202#0,6:327
+*E

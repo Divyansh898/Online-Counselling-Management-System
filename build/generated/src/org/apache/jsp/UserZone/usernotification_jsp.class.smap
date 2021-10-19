@@ -1,0 +1,24 @@
+SMAP
+usernotification_jsp.java
+JSP
+*S JSP
+*F
++ 0 usernotification.jsp
+UserZone/usernotification.jsp
++ 1 header.jsp
+UserZone/../UserZone/header.jsp
++ 2 footer.jsp
+UserZone/../UserZone/footer.jsp
+*L
+5,52:52
+5#1,30:104
+56#0,42:133
+98,6:176
+103,2:182
+105:184,3
+106:187
+107:188,3
+108,11:191
+5#2,38:202
+118#0,7:239
+*E

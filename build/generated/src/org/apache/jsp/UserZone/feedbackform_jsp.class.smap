@@ -1,0 +1,18 @@
+SMAP
+feedbackform_jsp.java
+JSP
+*S JSP
+*F
++ 0 feedbackform.jsp
+UserZone/feedbackform.jsp
++ 1 header.jsp
+UserZone/../UserZone/header.jsp
++ 2 footer.jsp
+UserZone/../UserZone/footer.jsp
+*L
+5,69:50
+5#1,26:119
+73#0,89:144
+5#2,38:233
+161#0,6:270
+*E

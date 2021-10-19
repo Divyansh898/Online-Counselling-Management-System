@@ -1,0 +1,24 @@
+SMAP
+review_jsp.java
+JSP
+*S JSP
+*F
++ 0 review.jsp
+AdminZone/review.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,51:52
+5#1,26:103
+55#0,112:128
+167,6:241
+172,2:247
+174,3:249,3
+177:258
+178:259,3
+179,10:262
+5#2,38:272
+188#0,6:309
+*E

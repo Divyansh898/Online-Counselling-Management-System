@@ -1,0 +1,24 @@
+SMAP
+registrationdetail_jsp.java
+JSP
+*S JSP
+*F
++ 0 registrationdetail.jsp
+AdminZone/registrationdetail.jsp
++ 1 headeradmin.jsp
+AdminZone/../AdminZone/headeradmin.jsp
++ 2 footeradmin.jsp
+AdminZone/../AdminZone/footeradmin.jsp
+*L
+5,51:52
+5#1,26:103
+55#0,115:128
+170,6:244
+175,2:250
+177,9:252,3
+186,5:279
+191:284,3
+192,7:287
+5#2,38:294
+198#0,5:331
+*E
